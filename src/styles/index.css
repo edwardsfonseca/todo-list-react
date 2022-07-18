@@ -10,3 +10,18 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body{
+    background: #d4cece;
+}
+.titulo{
+    color: #bfbbbb;
+    font-size: 50px;
+    font-family: 'Catamaran', sans-serif;
+}
+.coco{
+    background: rgb(150, 191, 17);
+    margin-inline: auto;
+    width: 501px;
+    text-align: center;
+    margin-top: 20px;
+}
