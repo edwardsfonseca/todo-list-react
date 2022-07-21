@@ -1,15 +1,17 @@
 import React from "react";
+import Form from "./Form.jsx";
 
 
 //include images into your bundle
 
-import TodoList from "./TodoList.jsx";
+
 
 //create your first component
 const Home = () => {
 	return (
 		<div className="text-center">
-			<TodoList/>
+			<p>Todo list</p>
+			<Form/>
 		</div>
 	);
 };
