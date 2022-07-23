@@ -28,9 +28,9 @@ export default function Form() {
   };
 
  const editTodo= (id)=>{
-  const updatedTodo = [...tarea].map((todo)=>{
-    if(todo.id === id){
-      todo.text = editingtext;
+  const updatedTodo = [...tarea].map((todo,i)=>{
+    if(i === id){
+      todo = editingtext;
     }
     return todo;
   });
